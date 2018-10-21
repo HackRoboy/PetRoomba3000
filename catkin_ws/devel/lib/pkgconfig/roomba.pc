@@ -1,0 +1,8 @@
+prefix=/home/verena/catkin_ws/devel
+
+Name: roomba
+Description: Description of roomba
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/verena/catkin_ws/devel/lib 
+Requires: 
