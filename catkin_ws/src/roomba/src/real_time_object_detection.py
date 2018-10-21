@@ -21,7 +21,7 @@ _camera_angle = 60
 
 # ROS stuff
 pub_turtlesim = rospy.Publisher('commands', Twist, queue_size=10)
-pub_roomba = rospy.Publisher('roomba', Int8, queue_size=10)
+pub_roomba = rospy.Publisher('pet_roomba3000', Int8, queue_size=10)
 rospy.init_node('publisher', anonymous=True)
 rate = rospy.Rate(10) # 10hz
 cmd_vel = Twist()
